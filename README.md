@@ -18,7 +18,7 @@ allow_fly=false
 
 #allow players to move abnormally, provided that allow_fly=true
 
-#允许玩家异常移动，前提是 allow_fly=true
+#允许玩家异常移动（钻地、远距离移动），前提是 allow_fly=true
 
 allow_abnormal_movement=false
 
@@ -44,7 +44,7 @@ allow_use_creative_block=false
 
 #玩家作弊次数超过此值将被踢出，0表示没有限制，它将在重启服务器时重置
 
-max_cheats_times=0
+max_cheats_times=20
 
 #it will be show when player be kicked
 
@@ -101,3 +101,27 @@ online_authentication=true
 #红石的tick速度，范围为0～20。设置为0以禁用红石。值越小，红石电路运转越缓慢，服务器就越流畅。注意，设置的值过小会影响到玩家的游戏体验，在高配置服务器默认为20即可
 
 redstone_tick_speed=20
+
+#whether to set a lot of the virtual chest
+
+#是否开户虚拟箱子功能，混淆真假宝箱，防止玩家通透箱子透视快速搜寻宝箱
+
+chest_obfuscation=true
+
+#whether to enable minecraft online authentication
+
+#是否开启xbox在线验证，如果大量玩家进服务器过不了验证，可以考虑设置为false
+
+online_authentication=true
+
+#in order to prevent xray, you can set ore block offset, values range from 16 to 48
+
+#为了防止矿透射线，可以开启矿物偏移，建议值 16 到 48，如果设置为 0 则关闭该功能
+
+ore_block_offset=36
+
+#whether the Toolbox client is allowed to log in
+
+#是否禁止toolbox客户端（挂端）登录
+
+allow_toolbox=true
