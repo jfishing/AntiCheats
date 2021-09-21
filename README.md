@@ -3,7 +3,7 @@
 
 ## 配置文件（BDS_SERVER/anti_cheats.conf）说明
 提示："="后面的"true"的意思为"是"，"false"的意思为"否"
-(```)
+```
 #please contact the author(qq:651287998,tg:@JFishing) for the register_code, otherwise, it cannot be used
 
 #请联系作者（qq：651287998，tg：@JFishing）获取授权码，否则将无法使用
@@ -125,4 +125,4 @@ ore_block_offset=36
 #是否禁止toolbox客户端（挂端）登录
 
 allow_toolbox=true
-(```)
+```
