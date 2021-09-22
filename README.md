@@ -62,9 +62,9 @@ allow_enchant=false
 #超过此等级的附魔将会重置
 max_enchant_level=5
 
-#allow use creative block, example: bedrock
-#允许使用创造方块，例如：基岩
-allow_use_creative_block=false
+#customize illegal items, only numeric id are supported,such as bedrock:7
+#自定义禁用物品，仅支持数字id格式，例如：基岩(7)
+disabled_items=7,90,119,120,416,137,188,189
 
 #player cheats more than this value will be kicked, 0 means no limit, it will reset when restart server
 #玩家作弊次数超过此值将被踢出，0表示没有限制，它将在重启服务器时重置
