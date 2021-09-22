@@ -1,6 +1,16 @@
 # AntiCheats 
  该项目是为防止bds服务器玩家作弊而创造
 
+## 使用说明
+* 第一步
+联系作者（qq：651287998，tg：@JFishing）获取插件（AntiCheats.dll）及授权
+* 第二步
+在bds服务器中安装加载器，例如bdx(c)、liteloader（包含lxl）、elementzero均可，如果是csr加载器，可以采用嵌套bdxc加载器方式，具体安装方式见各种加载器的使用说明
+* 第三步
+将插件（AntiCheats.dll）放入插件目录，例如liteloader的插件目录是`plugins`，bdxc的插件目录是`bdxcore_mod`
+* 第四步
+按照各加载器的方式正常启动服务器，在控制台会英文（避免乱码）提示输入激活码，如：`Please input AntiCheats auth code:`，直接输入激活码再回车（千万别在前后增加多余的字符包括回车），最后控制台提示`AntiCheats loaded success`，即激活完成。
+
 ## 配置文件（BDS_SERVER/anti_cheats.conf）说明
 提示："="后面的"true"的意思为"是"，"false"的意思为"否"
 ```
