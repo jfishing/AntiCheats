@@ -123,3 +123,7 @@ ore_block_offset=36
 #是否禁止toolbox客户端（挂端）登录
 allow_toolbox=true
 ```
+
+## 常见问题
+1. 如何更新插件？
+答：群文件下载新版，停止bds，然后删除旧版插件(AntiCheats-版本号.dll)，同目录下上传新版插件，再启动bds。（只动这一个文件就行，其他文件不要动）
