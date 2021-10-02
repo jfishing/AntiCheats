@@ -128,8 +128,8 @@ allow_toolbox=true
 1. 如何更新插件？  
 答：群文件下载新版，停止bds，然后删除旧版插件(AntiCheats-版本号.dll)，同目录下上传新版插件，再启动bds。（只动这一个文件就行，其他文件不要动）
 2. 如何更换服务端？
-答：旧的服务端千万不要删，安装好新的服务端，确保新服务端一切正常后，再移植本插件。移植本插件需要将本插件的相关文件全部平移到新的服务端对应目录，具体文件有：  
-* AntiCheats-版本号.dll（插件目录）
-* anti_cheats.conf（服务端根目录）
-* anti_cheats.db（worlds）
-* anti_cheats.log（可选）
+答：旧的服务端千万不要删，安装好新的服务端，确保新服务端一切正常后，再移植本插件。移植本插件需要将本插件的相关文件全部平移到新的服务端对应目录，具体文件有：
+   * AntiCheats-版本号.dll（插件目录）
+   * anti_cheats.conf（服务端根目录）
+   * anti_cheats.db（worlds）
+   * anti_cheats.log（可选）
