@@ -133,7 +133,7 @@ allow_toolbox=true
 答：旧的服务端千万不要删，安装好新的服务端，确保新服务端一切正常后，再移植本插件。移植本插件需要将本插件的相关文件全部平移到新的服务端对应目录，具体文件有：
    * AntiCheats-版本号.dll（插件目录）
    * anti_cheats.conf（服务端根目录）
-   * anti_cheats.db（worlds）
+   * anti_cheats.db（worlds目录下，随地图迁移，换新地图不需要迁）
    * anti_cheats.log（可选）
 3. 如何自动拉黑玩家？   
 答：反作弊主要目的是防止作弊，并未直接实现黑名单功能，需要通过配置文件`ban_command`参数，设置拉黑玩家指令，指令依赖第三方插件实现。推荐第三方黑名单插件https://www.minebbs.com/resources/lxlblackbe.2695/ (lxl)
