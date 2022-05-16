@@ -137,4 +137,4 @@ allow_toolbox=true
    * anti_cheats.db（worlds目录下，随地图迁移，换新地图不需要迁）
    * anti_cheats.log（可选）
 3. 如何自动拉黑玩家？   
-答：反作弊主要目的是防止作弊，并未直接实现黑名单功能，需要通过配置文件`ban_command`参数，设置拉黑玩家指令，指令依赖第三方插件实现。推荐第三方黑名单插件https://www.minebbs.com/resources/lxlblackbe.2695/ (lxl)
+答：反作弊主要目的是防止作弊，并未直接实现黑名单功能，需要通过配置文件`ban_command`参数，设置拉黑玩家指令，指令依赖第三方插件实现。
