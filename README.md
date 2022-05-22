@@ -125,6 +125,10 @@ ore_block_offset=36
 #whether the Toolbox client is allowed to log in
 #是否禁止toolbox客户端（挂端）登录
 allow_toolbox=true
+
+#whether the player is allowed to destroy blocks faster
+#是否允许玩家快速破坏单个方块
+allow_fast_destroy=true
 ```
 
 ## 常见问题  
