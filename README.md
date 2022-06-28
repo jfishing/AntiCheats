@@ -123,8 +123,8 @@ online_authentication=true
 ore_block_offset=36
 
 #whether the Toolbox client is allowed to log in
-#是否禁止toolbox客户端（挂端）登录
-allow_toolbox=true
+#是否禁止toolbox客户端（挂端）登录，默认false是禁止toolbox登录
+allow_toolbox=false
 
 #whether the player is allowed to destroy blocks faster
 #是否允许玩家快速破坏单个方块
