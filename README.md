@@ -78,8 +78,8 @@ max_cheats_times=20
 kick_message=Do not cheat!
 #示例：你是作弊者吗?请问你这样作弊有什么意义?能享受游戏竞技中带来的乐趣吗?我劝你少作弊，正如生活中的欺骗，多了则失去他人信任，网络世界中也如此。这样的作弊久而久之换来的只有他人的唾弃与无尽的空虚。
 
-#it will be executed when player cheat more than max_cheats_times
-#当玩家作弊次数超过选项“max_cheats_times”设置的值时执行此命令
+#it will be executed when player cheat more than max_cheats_times, the dynamic variables are as follows：{player_name} {cheat_cause}
+#当玩家作弊次数超过选项“max_cheats_times”设置的值时执行此命令, 其中可设置2个动态参数有：玩家名字-{player_name} 作弊行为-{cheat_cause}
 ban_command=ban {player_name}
 
 #custom set the fake map seed. Prevent players from creating the same map as the server locally, and then use the "/locate" command to get the building location
@@ -123,7 +123,7 @@ online_authentication=true
 ore_block_offset=36
 
 #whether the Toolbox client is allowed to log in
-#是否禁止toolbox客户端（挂端）登录，默认false是禁止toolbox登录
+#是否允许toolbox客户端（挂端）登录，默认false是禁止toolbox登录
 allow_toolbox=false
 
 #whether the player is allowed to destroy blocks faster
@@ -142,3 +142,37 @@ allow_fast_destroy=true
    * anti_cheats.log（可选）
 3. 如何自动拉黑玩家？   
 答：反作弊主要目的是防止作弊，并未直接实现黑名单功能，需要通过配置文件`ban_command`参数，设置拉黑玩家指令，指令依赖第三方插件实现。
+
+## 作弊代码清单
+|  代码   | 作弊行为  |
+|  ----  | ----  |
+| 001  | 非法客户端，如toolbox、blocklauncher  |
+| 002  | 使用已禁用的物品  |
+| 003  | 使用非法附魔物品  |
+| 004  | 使用带有命令执行NBT的物品  |
+| 005  | 破坏地形  |
+| 006  | 非法破坏方块  |
+| 007  | 破坏创造模式才能破坏的方块  |
+| 008  | 非法放置方块  |
+| 009  | 放置已禁用的方块  |
+| 010  | 非法获取物品  |
+| 011  | 非法附魔物品  |
+| 012  | 非法合成物品  |
+| 013  | 副手非法获取物品  |
+| 014  | 非法堆叠物品  |
+| 015  | 发送异常崩服包  |
+| 016  | 昵称异常  |
+| 017  | 非法修改命令方块  |
+| 018  | 非法获取经验  |
+| 019  | 非法增加等级  |
+| 020  | 暂停发包作弊  |
+| 021  | 异常位置传送  |
+| 022  | 身体深入方块异常  |
+| 023  | 鞘翅飞行  |
+| 024  | 游泳飞行  |
+| 025  | 爬墙飞行  |
+| 026  | 无跌落伤害  |
+| 027  | 开启游戏变速齿轮  |
+| 028  | 自动瞄准  |
+| 029  | 自动攻击（杀戮光环）  |
+| 030  | 使用特性刷物品  |
