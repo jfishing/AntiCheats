@@ -82,7 +82,7 @@ kick_message=Do not cheat!
 #当玩家作弊次数超过选项“max_cheats_times”设置的值时执行此命令, 其中可设置2个动态参数有：玩家名字-{player_name} 作弊行为-{cheat_cause}
 ban_command=ban {player_name}
 
-#custom set the fake map seed. Prevent players from creating the same map as the server locally, and then use the "/locate" command to get the building location
+#custom set the fake map seed, if the value is 0, it is disabled. Prevent players from creating the same map as the server locally, and then use the "/locate" command to get the building location
 #自定义在客户端显示的服务器地图种子，防止玩家本地创建一模一样的地图并使用“/locate”命令获取建筑物位置
 fake_map_seed=644654234
 
@@ -129,6 +129,10 @@ allow_toolbox=false
 #whether the player is allowed to destroy blocks faster
 #是否允许玩家快速破坏单个方块
 allow_fast_destroy=true
+
+#configure the display of cheat codes
+#配置作弊代码显示，可自定义显示玩家看到的作弊内容
+cheat_cause_display=001:FAC001,002:FAC002,003:FAC003,004:FAC004,005:FAC005,006:FAC006,007:FAC007,008:FAC008,009:FAC009,010:FAC010,011:FAC011,012:FAC012,013:FAC013,014:FAC0014,015:FAC015,016:FAC016,017:FAC017,018:FAC018,019:FAC019,020:FAC020,021:FAC021,022:FAC022,023:FAC023,024:FAC024,025:FAC025,026:FAC026,027:FAC027,028:FAC028,029:FAC029,030:FAC030
 ```
 
 ## 常见问题  
