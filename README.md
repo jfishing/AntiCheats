@@ -3,7 +3,7 @@
 
 ## 使用说明
 * 第一步
-联系作者（qq：651287998，tg：@JFishing）获取插件及授权，或者直接[赞助获取](http://ac.jfishing.top/donate.html)
+联系作者（qq：651287998，tg：@JFishing）获取插件及授权，或者直接[赞助获取↑](http://ac.jfishing.top/donate.html "点击")
 * 第二步
 在bds服务器中安装加载器，例如bdx(c)、liteloader（包含lxl）、elementzero均可，如果是bdsx加载器，可以采用嵌套bdxc加载器方式，具体安装方式见各种加载器的使用说明
 * 第三步
