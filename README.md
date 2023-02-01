@@ -1,11 +1,11 @@
 # Fishing AntiCheats - 高性能反作弊插件
- 该项目是为防止bds服务器玩家作弊而创造，插件讲究极简原则（有人问我为什么不加白名单功能，只能告诉你因为性能），所有功能完全由c/c++及和汇编底层代码技术实现，从2018年开始开发，历史4年，不断的测试和完善至今，可以防止绝大部分作弊方式（如toolbox、gg修改器、horion、pc端各种外挂、原版自带的bug等）。
+ 该项目是为防止bds服务器玩家作弊而创造，插件讲究极简原则（使用尽量少的代码直接解决问题，未引用第三方库），所有功能完全由c/c++及和汇编底层代码技术实现，从2018年开始开发，历史4年半，不断的测试和完善至今，可以防止绝大部分作弊方式（如toolbox、gg修改器、horion、pc端各种外挂、原版自带的bug等）。
 
 ## 使用说明
 * 第一步
-联系作者（qq：651287998，tg：@JFishing）获取插件（AntiCheats.dll）及授权
+联系作者（qq：651287998，tg：@JFishing）获取插件及授权，或者直接[赞助获取](http://ac.jfishing.top/donate.html)
 * 第二步
-在bds服务器中安装加载器，例如bdx(c)、liteloader（包含lxl）、elementzero均可，如果是csr加载器，可以采用嵌套bdxc加载器方式，具体安装方式见各种加载器的使用说明
+在bds服务器中安装加载器，例如bdx(c)、liteloader（包含lxl）、elementzero均可，如果是bdsx加载器，可以采用嵌套bdxc加载器方式，具体安装方式见各种加载器的使用说明
 * 第三步
 将插件（AntiCheats.dll）放入插件目录，例如liteloader的插件目录是`plugins`，bdxc的插件目录是`bdxcore_mod`
 * 第四步
