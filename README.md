@@ -1,5 +1,5 @@
 # Fishing AntiCheats - 高性能反作弊插件
-> 当前支持的版本 1.14.60 - 1.20.11
+> 当前支持的版本 1.14.60 - 1.20.13
 
  该项目是为防止bds服务器玩家作弊而创造，插件讲究极简原则（使用尽量少的代码直接解决问题，未引用第三方库），所有功能完全由c/c++及和汇编底层代码技术实现，从2018年开始开发，历史5年，不断的测试和完善至今，可以防止绝大部分作弊方式（如toolbox、gg修改器、horion、pc端各种外挂、原版自带的bug等）。
 
@@ -136,6 +136,14 @@ allow_fast_destroy=true
 #configure the display of cheat codes
 #配置作弊代码显示，可自定义显示玩家看到的作弊内容
 cheat_cause_display=001:FAC001,002:FAC002,003:FAC003,004:FAC004,005:FAC005,006:FAC006,007:FAC007,008:FAC008,009:FAC009,010:FAC010,011:FAC011,012:FAC012,013:FAC013,014:FAC0014,015:FAC015,016:FAC016,017:FAC017,018:FAC018,019:FAC019,020:FAC020,021:FAC021,022:FAC022,023:FAC023,024:FAC024,025:FAC025,026:FAC026,027:FAC027,028:FAC028,029:FAC029,030:FAC030
+
+#whether to allow players to use custom skins
+#是否允许玩家使用自定义皮肤，默认true为允许
+allow_custom_skin=true
+
+﻿#whether to enable anti-hacker mode to prevent dos attacks
+#是否启用反黑客攻击模式，默认false不启用，当服务器经常网络流量异常增加或登录不了服务器时，可尝试启阻止黑客攻击，有一点性能损失
+enable_anti_hacking=false
 ```
 
 ## 常见问题  
@@ -181,5 +189,6 @@ cheat_cause_display=001:FAC001,002:FAC002,003:FAC003,004:FAC004,005:FAC005,006:F
 | 026  | 无跌落伤害  |
 | 027  | 开启游戏变速齿轮  |
 | 028  | 自动瞄准  |
+
 | 029  | 自动攻击（杀戮光环）  |
 | 030  | 使用特性刷物品  |
