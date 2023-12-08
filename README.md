@@ -85,6 +85,10 @@ kick_message=Do not cheat!
 #当玩家作弊次数超过选项“max_cheats_times”设置的值时执行此命令, 其中可设置2个动态参数有：玩家名字-{player_name} 作弊行为-{cheat_cause}
 ban_command=ban {player_name}
 
+# it will be executed before player is baned, the dynamic variables are as follows: {player_name} {cheat_cause}
+# 以下命令将在玩家被拉黑之前执行，其中可设置2个动态参数有：玩家名字-{player_name} 作弊行为-{cheat_cause}
+before_ban_command=msg "{player_name}" "system detects cheating and you will be blocked"
+
 #custom set the fake map seed, if the value is 0, it is disabled. Prevent players from creating the same map as the server locally, and then use the "/locate" command to get the building location
 #自定义在客户端显示的服务器地图种子，防止玩家本地创建一模一样的地图并使用“/locate”命令获取建筑物位置
 fake_map_seed=644654234
