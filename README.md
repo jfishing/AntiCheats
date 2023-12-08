@@ -160,8 +160,8 @@ enable_anti_hacking=false
    * anti_cheats.db（worlds文件夹下，随地图迁移，换新地图不需要迁）
    * anti_cheats.log（可选）
 3. 如何自动拉黑玩家？   
-答：反作弊主要目的是防止作弊，并未直接实现黑名单功能，需要通过配置文件`ban_command`参数，设置拉黑玩家指令，指令依赖第三方插件实现。例如liteloader黑名单插件：<a href='https://github.com/lgc-LLSEDev/LLBlackBEEx/releases
-' target='_blank'>https://github.com/lgc-LLSEDev/LLBlackBEEx/releases</a>
+答：反作弊主要目的是防止作弊，并未直接实现黑名单功能，需要通过配置文件`ban_command`参数，设置拉黑玩家指令，指令依赖第三方插件实现。例如liteloader黑名单插件：[https://github.com/lgc-LLSEDev/LLBlackBEEx/releases
+](https://github.com/lgc-LLSEDev/LLBlackBEEx/releases)
 
 ## 作弊代码清单
 |  代码   | 作弊行为  |
