@@ -10,7 +10,7 @@
 在bds服务器中安装加载器，例如bdx(c)、liteloader（包含lxl）、elementzero均可，如果是bdsx加载器，可以采用嵌套bdxc加载器方式，具体安装方式见各种加载器的使用说明
 * 第三步
 将插件（AntiCheats.dll）放入插件目录，例如liteloader的插件目录是`plugins`，bdxc的插件目录是`bdxcore_mod`
-如果是LeviLamina（LL3）加载器，同时还需将插件下载时附带的winhttp.dll文件放入bedrock_server目录（服务端根目录）
+，如果是LeviLamina（LL3）加载器，同时还需将插件下载时附带的winhttp.dll文件放入bedrock_server目录（服务端根目录）
 * 第四步
 按照各加载器的方式正常启动服务器（不要使用外壳的程序启动，建议第一次直接通过bedrock_server.exe或者bedrock_server_mod.exe启动），在控制台会英文（避免乱码）提示输入激活码，如：`Please input AntiCheats auth code:`，直接输入激活码再回车（千万别在前后增加多余的字符包括回车），最后控制台提示`AntiCheats loaded success`，即激活完成。如果是面板启动的情况下，可能会有缓冲导致提示未显示，当启动卡住不动时，也可尝试输入激活码。
 
